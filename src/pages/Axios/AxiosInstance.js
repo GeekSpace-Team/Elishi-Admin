@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export const BASE_URL = "http://95.85.121.153:5010/api/admin/";
+export const BASE_URL = "https://api.elishi.art/api/admin/";
 const AxiosInstance = axios.create({
     baseURL: BASE_URL,
     timeout: 100000,
@@ -19,6 +19,6 @@ const AxiosInstanceFormData = axios.create({
     }
 })
 
-export const server_ip = "http://95.85.121.153:5010";
+export const server_ip = "https://api.elishi.art";
 export {AxiosInstance};
 export {AxiosInstanceFormData};
